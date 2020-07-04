@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clock</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <button>Digital</button>
+        <section class="clocks">
+            <div data-clock="digital" class="clock">
+                <div class="clockFrame-digital">
+                    <p class="section" data-digital="hour">00</p><p class="section" data-digital="minute">00</p><p class="section" data-digital="second">00</p>
+                </div>
+            </div>
+            <div data-clock="analogous" class="clock">
+                <div class="clockFrame-analogous">
+                    <div class="hand" data-hand="hour"></div>
+                    <div class="hand" data-hand="minute"></div>
+                    <div class="hand" data-hand="second"></div>
+                </div>
+            </div>
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>
